@@ -24,10 +24,9 @@ while entrada_usuario != senha_secreta
   if entrada_usuario == senha_secreta
     break
   elsif entrada_usuario > senha_secreta
-    puts "#{entrada_usuario} é maior que o valor da senha."
+    puts "A senha secreta é MENOR que isso."
   else
-    puts "#{entrada_usuario} é menor que o valor da senha"
+    puts "A senha secreta é MAIOR que isso."
   end
-
 end
 puts "Você acertou!"

@@ -26,8 +26,10 @@ comidas = {
 
 lista_comidas = []
 
-comidas.each_value do |comida|
-  lista_comidas << comida
+comidas.each do |chave, valor|
+  valor.each do |comida|
+    lista_comidas << comida
+  end
 end
 
 puts "#{lista_comidas}"

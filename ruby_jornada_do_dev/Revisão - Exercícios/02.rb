@@ -23,5 +23,5 @@ elsif operando == "-"
   resultado = primeiro_numero - segundo_numero
   puts "Resultado = #{resultado}"
 else
-  puts "Openrador inválido"
+  puts "Operador não reconhecido."
 end
