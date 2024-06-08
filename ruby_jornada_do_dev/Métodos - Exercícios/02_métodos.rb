@@ -34,7 +34,7 @@ def imc(peso, altura, nome)
   elsif imc > 25
     puts "#{nome} está ACIMA DO PESO"
   elsif imc > 30
-    puts "#{nome} está com OBSESIDADE"
+    puts "#{nome} está com OBESIDADE"
   else
     puts "Ocorreu um erro! Algo não está correto"
   end
